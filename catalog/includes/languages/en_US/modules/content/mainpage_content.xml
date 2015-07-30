@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>mainpage_content_title</key>
+      <value><![CDATA[Content on Mainpage]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>mainpage_content_content</key>
+      <value><![CDATA[<p>Home Page Content</p>]]>
+      </value>
+      <group>modules-content</group>
+    </definition>    
+  </definitions>
+</language>

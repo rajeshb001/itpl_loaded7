@@ -1,0 +1,7 @@
+[2015-07-10 17:56:07] ##### ADDON INSTALL Zones_Rate_Shipping STARTED
+[2015-07-10 17:56:07] Extracted: addons/Zones_Rate_Shipping/controller.php
+[2015-07-10 17:56:07] Extracted: addons/Zones_Rate_Shipping/images/zones.png
+[2015-07-10 17:56:07] Extracted: addons/Zones_Rate_Shipping/languages/en_US.xml
+[2015-07-10 17:56:07] Extracted: addons/Zones_Rate_Shipping/modules/shipping/zones.php
+[2015-07-10 17:56:07] ##### CLEANUP
+[2015-07-10 17:56:07] ##### ADDON INSTALL  COMPLETE

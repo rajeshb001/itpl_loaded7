@@ -1,0 +1,48 @@
+<?php
+/**
+  @package    catalog::admin::applications
+  @author     Loaded Commerce
+  @copyright  Copyright 2003-2014 Loaded Commerce, LLC
+  @copyright  Portions Copyright 2003 osCommerce
+  @copyright  Template built on Developr theme by DisplayInline http://themeforest.net/user/displayinline under Extended license 
+  @license    https://github.com/loadedcommerce/loaded7/blob/master/LICENSE.txt
+  @version    $Id: main.php v1.0 2013-08-08 datazen $
+*/
+?>
+<!-- Main content -->
+<section role="main" id="main">
+  <noscript class="message black-gradient simpler"><?php echo $lC_Language->get('ms_error_javascript_not_enabled_warning'); ?></noscript>
+  <hgroup id="main-title" class="thin">
+    <h1><?php echo $lC_Template->getPageTitle(); ?></h1>
+  </hgroup>
+  <style>
+  .dataColDate { text-align: left; }
+  .dataColMessage { text-align: left; }
+  </style>
+  <div class="with-padding-no-top">
+    <form name="batch" id="batch" action="#" method="post">
+    <table border="0" width="100%" cellspacing="0" cellpadding="0" class="table responsive-table" id="dataTable">
+      <thead>
+        <tr>
+          <th scope="col" class="align-left"><?php echo $lC_Language->get('table_heading_date'); ?></th>
+          <th scope="col" class="align-left hide-on-mobile-portrait"><?php echo $lC_Language->get('table_heading_message'); ?></th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">&nbsp;</th>
+        </tr>
+      </tfoot>
+    </table>
+    </form>
+    <div class="clear-both"></div>
+  </div>
+</section>
+<?php
+  if (isset($_SESSION['error'])) unset($_SESSION['error']);
+  if (isset($_SESSION['errmsg'])) unset($_SESSION['errmsg']);
+  $lC_Template->loadModal($lC_Template->getModule());
+?>
+<!-- End main content -->

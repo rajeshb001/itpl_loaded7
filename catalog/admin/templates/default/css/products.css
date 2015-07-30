@@ -1,0 +1,61 @@
+/* admin product add/edit page specific css */
+
+/* content tab */
+#fileUploaderImageContainer .qq-upload-drop-area { left: 19%; min-height: 104px; position: absolute; width: 65%; bottom: 55px; }
+#fileUploaderImageContainer .qq-upload-drop-area span { margin-top:-16px; }
+
+/* images tab */
+.files-list > li > a:hover { color: #0099FF; }
+.selected-menu b { color: #016cb3; }
+
+/* options tab */
+body.dragging, body.dragging * { cursor: move !important; }
+.dragged { position: absolute; opacity: 0.5; z-index: 2000; }
+.placeholder { position: relative; }
+.placeholder:before { position: absolute; }
+
+/* pricing tab */
+.simple-options-pricing-table td {  }
+.simple-options-pricing-table input { width:55px; }
+.simple-options-pricing-table .inputs { width:80px; }
+.simple-options-pricing-table .element { padding-left:24px; vertical-align:middle; width:100px; }
+
+.combo-options-pricing-table .element { width:137px; }
+.combo-options-pricing-table input { width:58px; }
+
+.subproducts-pricing-table .element { width:136px; vertical-align:middle; }
+.subproducts-pricing-table input { width:58px; }
+
+.accordion > dt { 
+  background: -webkit-gradient(linear, left top, left bottom, from(#565656), to(#404040));
+  background: -webkit-linear-gradient(top, #565656, #404040);
+  background: -moz-linear-gradient(top, #565656, #404040);
+  background: -ms-linear-gradient(top, #565656, #404040);
+  background: -o-linear-gradient(top, #565656, #404040);
+  background: linear-gradient(top, #565656, #404040);
+  border-color: #282E36;
+  color: white;
+}
+
+#categories_filter_container { position:absolute; top:95px; left:30px; z-index:2; }
+
+.products-listing-thumb { float:left; width:32px; }
+.products-listing-name-model { margin-left:40px; }
+
+#err-div {
+  display:none;
+  color:#ff0000;
+}
+
+/* custom media queries */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .dataTables_filter { float: none; text-align: left; }
+  .dataTables_filter input { margin-top: 40px; }
+  #categories_filter_container { position:absolute; top:92px; left:15px; z-index:2; }
+}
+  
+@media screen and (max-width: 479px) {
+  .dataTables_filter { float: none; text-align: left; }
+  .dataTables_filter input { margin-top: 40px; }
+  #categories_filter_container { position:absolute; top:88px; left:15px; z-index:2; }
+}

@@ -1,0 +1,8 @@
+[2015-07-10 18:16:40] ##### ADDON INSTALL USPS_Shipping STARTED
+[2015-07-10 18:16:40] Extracted: controller.php
+[2015-07-10 18:16:40] Extracted: images/usps-small.png
+[2015-07-10 18:16:40] Extracted: images/usps.png
+[2015-07-10 18:16:40] Extracted: languages/en_US.xml
+[2015-07-10 18:16:40] Extracted: modules/shipping/usps.php
+[2015-07-10 18:16:40] ##### CLEANUP
+[2015-07-10 18:16:40] ##### ADDON INSTALL  COMPLETE

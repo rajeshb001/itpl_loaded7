@@ -1,0 +1,8 @@
+[2015-07-09 14:12:40] ##### ADDON INSTALL United_Parcel_Service STARTED
+[2015-07-09 14:12:40] Extracted: controller.php
+[2015-07-09 14:12:40] Extracted: images/ups-small.png
+[2015-07-09 14:12:40] Extracted: images/ups.png
+[2015-07-09 14:12:40] Extracted: languages/en_US.xml
+[2015-07-09 14:12:40] Extracted: modules/shipping/ups.php
+[2015-07-09 14:12:40] ##### CLEANUP
+[2015-07-09 14:12:40] ##### ADDON INSTALL  COMPLETE
